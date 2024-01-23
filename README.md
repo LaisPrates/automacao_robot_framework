@@ -1,11 +1,14 @@
-# automacao_robot_framework
+# AUTOMACAO DE TESTES FUNCIONAIS WEB - ROBOT FRAMEWORK
+
 Automação de testes feita para estudo com Robot Framework
 
+-------------------------
 
 - Estrutura do Projeto:
 
 Este projeto utiliza o Robot Framework para automação de testes. A estrutura do projeto é organizada de acordo com boas práticas para facilitar a manutenção e escalabilidade.
 
+-------------------------
 
 - Pasta resources
 
@@ -14,11 +17,13 @@ Contém recursos utilizados nos testes, como dados de teste (arquivos CSV, Excel
 Exemplo de Conteúdo:
 Keywords: Palavras-chave personalizadas para reutilização nos testes.
 
+-------------------------
 
 - Pasta pages
 
 Segue o conceito de Page Object, onde as interações com as páginas do aplicativo são encapsuladas em objetos reutilizáveis.
 
+-------------------------
 
 - Pasta features
 
@@ -37,6 +42,8 @@ Pré-requisitos:
 2- Robot Framework instalado (pip install robotframework).
 
 3- Executar comando robot -d results .\features\login_feature_test.robot
+
+-------------------------
 
 - Possiveis problemas:
 
